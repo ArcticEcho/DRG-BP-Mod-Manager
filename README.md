@@ -22,7 +22,7 @@ Claimed mod IDs:
 
 ## Installation
 
-Simply drop the [mod loader pak file](https://github.com/ArcticEcho/DRG-Mod-Loader/blob/master/FSD-WindowsNoEditor__ModLoaderV3.pak) into `C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks` and you're ready to go.
+Simply drop the [mod loader pak file](https://github.com/ArcticEcho/DRG-Mod-Loader/blob/master/FSD-WindowsNoEditor__ModLoaderV3P1.pak) into `C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks` and you're ready to go.
 
 ## Creating a new mod
 
