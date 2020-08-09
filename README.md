@@ -20,6 +20,10 @@ Claimed mod IDs:
 
 # How To use
 
+## Installation
+
+Simply drop the [mod loader pak file](https://github.com/ArcticEcho/DRG-Mod-Loader/blob/master/FSD-WindowsNoEditor__ModLoaderV3.pak) into `C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks` and you're ready to go.
+
 ## Creating a new mod
 
  - 1: In your Unreal Engine project, create a folder named `_ModBPs` in your content folder. Your content browser should look like this:
