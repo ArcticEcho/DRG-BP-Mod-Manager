@@ -28,7 +28,7 @@ Claimed mod IDs:
 
  - 2: Download the [ModBase](https://github.com/ArcticEcho/DRG-Mod-Loader/blob/master/ModBase.uasset) file and place it in `_ModBPs`.
  
- - 3: Create a new BP in `_ModBPs` with `ModBase` as the parent class:
+ - 3: Create a new BP in `_ModBPs` with `ModBase` as the parent class, and name the file `ModXXX` (replacing `XXX` with your mod ID):
  
  ![](https://i.imgur.com/5RtGtcM.png)
  
