@@ -4,7 +4,7 @@ The V3 mod loader provides a platform for mod developers to get their BluePrint 
 
 ## Mod IDs
 
-To avoid conflicts, simply pick the smallest unclaimed ID.
+To avoid conflicts when building a new mod, simply pick the smallest unclaimed ID.
 
 Claimed mod IDs:
  Mod ID | Mod Name | Author 
