@@ -3,8 +3,7 @@ name: ID Claim
 about: Pick this if you'd like to submit an ID claim.
 title: ID Claim
 labels: ID Claim
-assignees: ArcticEcho
-
+assignees:
 ---
 
 Mod ID: <ID to claim>
