@@ -2,7 +2,7 @@
 
 ![](https://cdn.discordapp.com/attachments/732650220214681600/742014938561642639/unknown.png)
 
-The V3 mod loader provides a platform for mod developers to get their BluePrint mods loaded into the game. The loader requires mod files to be uniquely named follwoing a set style `ModXXX`, where `XXX` is the mod ID, a number starting from 001 (and currently ranging to 050).
+The V3 mod loader provides a platform for mod developers to get their BluePrint mods loaded into the game. The loader requires mod files to be uniquely named following a set style `ModXXX`, where `XXX` is the mod ID, a number starting from 001 and currently ranging to 050 (including the prefixed 0s).
 
 To avoid conflicts, simply pick the smallest unclaimed ID.
 
