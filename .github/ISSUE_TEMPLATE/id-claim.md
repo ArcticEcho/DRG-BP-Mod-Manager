@@ -9,5 +9,6 @@ assignees: ArcticEcho
 
 Mod ID: <ID to claim>
 Mod Name: <mod name>
+Mod Author: <your username>
 
 <link to mod/description would be preferred>
