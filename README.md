@@ -1,8 +1,8 @@
 # Mod Loader V3
 
-![](https://cdn.discordapp.com/attachments/732650220214681600/742014938561642639/unknown.png)
-
 The V3 mod loader provides a platform for mod developers to get their BluePrint mods loaded into the game. The loader requires mod files to be uniquely named following a set style `ModXXX`, where `XXX` is the mod ID, a number starting from 001 and currently ranging to 050 (including the prefixed 0s).
+
+## Mod IDs
 
 To avoid conflicts, simply pick the smallest unclaimed ID.
 
@@ -12,9 +12,11 @@ Claimed mod IDs:
  001 | Advanced Darkness | ArcticEcho
  002 | Environmentalist | ArcticEcho
  003 | Mission Control Text Remover | ArcticEcho
- 004 | Better Salvage Bar | Arctic Echo
+ 004 | Better Salvage Bar | ArcticEcho
  005 | Twitch Integration | TheMedicKnight
  007 | MollyFixer  | TheMedicKnight
+ 008 | Garden Of Karl | GoldBl4d3
+ 009 | Enemy Spawner | GoldBl4d3
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
