@@ -14,6 +14,7 @@ Claimed mod IDs:
  003 | Mission Control Text Remover | ArcticEcho
  004 | Better Salvage Bar | ArcticEcho
  005 | Twitch Integration | TheMedicKnight
+ 006 | Minehead Gravity | ArcticEcho
  007 | MollyFixer  | TheMedicKnight
  008 | Garden Of Karl | GoldBl4d3
  009 | Enemy Spawner | GoldBl4d3
