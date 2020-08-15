@@ -18,7 +18,8 @@ Claimed mod IDs:
  007 | MollyFixer  | TheMedicKnight
  008 | Garden Of Karl | GoldBl4d3
  009 | Enemy Spawner | GoldBl4d3
- 010 | Twitch Integration System | GoldBl4d3 
+ 010 | Twitch Integration System | GoldBl4d3
+ 011 | Mission Timer | ArcticEcho
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
