@@ -23,6 +23,7 @@ Claimed mod IDs:
  012 | Custom Waves | ArcticEcho
  013 | Object Inspector | ArcticEcho
  014 | Better Post Processing | ArcticEcho
+ 015 | GoldBl4d3's Audio Suite | GoldBl4d3
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
