@@ -31,7 +31,7 @@ Claimed mod IDs:
 
 ## Installation
 
-Simply drop the [mod loader pak file](https://github.com/ArcticEcho/DRG-Mod-Loader/blob/master/FSD-WindowsNoEditor__ModLoaderV3.5.pak) into `C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks` and you're ready to go.
+Simply download mod loader pak file and move it into `C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks`.
 
 ## Creating a new mod
 
@@ -39,7 +39,7 @@ Simply drop the [mod loader pak file](https://github.com/ArcticEcho/DRG-Mod-Load
  
  ![](https://i.imgur.com/PaG745W.png)
 
- - 2: Download the [ModBase](https://github.com/ArcticEcho/DRG-Mod-Loader/blob/master/ModBase.uasset) file and place it in `_ModBPs`.
+ - 2: Download the ModBase BluePrint and place it in `_ModBPs`.
  
  - 3: Create a new BP in `_ModBPs` with `ModBase` as the parent class, and name the file `ModXXX` (replacing `XXX` with your mod ID):
  
