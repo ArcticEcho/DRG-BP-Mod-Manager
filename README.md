@@ -1,4 +1,4 @@
-# Mod Loader V3
+# BP Mod Loader
 
 The V3 mod loader provides a platform for mod developers to get their BluePrint mods loaded into the game. The loader requires mod files to be uniquely named following a set style `ModXXX`, where `XXX` is the mod ID, a number starting from 001 and currently ranging to 050 (including the prefixed 0s).
 
