@@ -65,4 +65,4 @@ Simply download mod loader pak file and move it into `C:\Program Files (x86)\Ste
  
 If you're embedding your UI, you may find the `OnUIOpened` and `OnUIClosed` events helpful for carrying out additional tasks (for example, initialising slider values when the UI opens, or saving data when the UI closes).
 
-Check out the [wiki](https://github.com/ArcticEcho/DRG-Mod-Loader/wiki) for more info. If you still need help feel free to submit an issue.
+If you still need help feel free to submit an issue.
