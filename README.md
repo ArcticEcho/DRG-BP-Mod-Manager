@@ -50,11 +50,11 @@ Simply download mod loader pak file and move it into `C:\Program Files (x86)\Ste
  
  ![](https://i.imgur.com/5RtGtcM.png)
  
- - 4: In your new BP, from the `BeginPlay` event, set the `ModName`, `ModVersion`, and `ModAuthor` variables.
+ - 4: In your new BP, go to the class defaults and set your mod name, author, and version.
  
- ![](https://i.imgur.com/sXUyeqY.png)
+ ![](https://i.imgur.com/woJnLN8.png)
  
- - 5: Bind to the `OnInitialise` event and get your mod ready for use (initialise UI, load save data, etc.). If you're embedding your UI, set the `ModUI` variable after you've created your widget. Do **not** start your mod from this event.
+ - 5: From the event BeginPlay, bind to the `OnInitialise` event and get your mod ready for use (initialise UI, load save data, etc.). If you're embedding your UI, set the `ModUI` variable after you've created your widget. Do **not** start your mod from this event.
  
  ![](https://i.imgur.com/5IWdC0T.png)
  
