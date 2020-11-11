@@ -27,7 +27,7 @@ Claimed mod IDs:
  016 | Disco | ArcticEcho
  017 | Custom Enemy Cap | ArcticEcho
  018 | Dynamic Resolution | ArcticEcho
- 019 | Better AI | ArcticEcho
+ 019 | Time Control | ArcticEcho
  020 | Speed HUD | Bebe
  021 | Creator Menu | GoldBl4d3
  022 | Heart of Hoxxes | GoldBl4d3
