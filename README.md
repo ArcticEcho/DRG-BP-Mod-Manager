@@ -36,6 +36,7 @@ Claimed mod IDs:
  025 | Better Spectator | ArcticEcho
  026 | Generous Management | ArcticEcho
  027 | Spicy Balls | ArcticEcho
+ 028 | Hazard Infinity | GoldBl4d3
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
