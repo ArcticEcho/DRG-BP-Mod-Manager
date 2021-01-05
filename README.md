@@ -38,6 +38,7 @@ Claimed mod IDs:
  027 | Spicy Balls | ArcticEcho
  028 | Hazard Infinity | GoldBl4d3
  029 | Homing Hell | GoldBl4d3
+ 030 | Bearded Enemies | ArcticEcho
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
