@@ -40,6 +40,7 @@ Claimed mod IDs:
  029 | Homing Hell | GoldBl4d3
  030 | Fabulous Bugs | ArcticEcho
  031 | Mission Control | GoldBl4d3
+ 032 | Creator Platform | GoldBl4d3
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
