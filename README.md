@@ -1,6 +1,6 @@
-# BP Mod Loader
+# BP Mod Manager
 
-The mod loader provides a platform for mod developers to get their BluePrint mods loaded into the game. The loader requires mod files to be uniquely named following a set style `ModXXX`, where `XXX` is the mod ID, a number starting from 001 and currently ranging to 100 (including the prefixed 0s).
+The mod manager provides a platform for mod developers to get their BluePrint mods loaded into the game, and lets users interact with them via an in-game GUI. The manager requires mod files to be placed in the `Content/_ModBPs` folder in your UE project, following a set naming style: `ModXXX`, where `XXX` is the mod ID (a number starting from 001 and currently ranging to 100, including the prefixed 0s).
 
 ## Mod IDs
 
@@ -50,7 +50,7 @@ Claimed mod IDs:
 
 ## Installation
 
-Simply download mod loader pak file and move it into `C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks`.
+Simply download mod manager pak file and move it into `C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks`.
 
 ## Creating a new mod
 
