@@ -46,6 +46,8 @@ Claimed mod IDs:
  035 | Upgraded Doretta | Our Lord And Savior Gabe Newell
  036 | RabidScotsmanMod | GoldBl4d3
  037 | Panini FOV | ArcticEcho
+ 038 | Seasonal Space Rig | Our Lord And Savior Gabe Newell
+ 039 | Equipment Changer | Our Lord And Savior Gabe Newell
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
