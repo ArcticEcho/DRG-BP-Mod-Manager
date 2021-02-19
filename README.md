@@ -20,7 +20,6 @@ Claimed mod IDs:
  009 | Enemy Spawner | GoldBl4d3
  010 | Twitch Integration System | GoldBl4d3
  011 | Mission Timer | ArcticEcho
- 012 | Custom Waves | ArcticEcho
  013 | Object Inspector | ArcticEcho
  014 | Better Post Processing | ArcticEcho
  015 | GoldBl4d3's Audio Suite | GoldBl4d3
@@ -32,7 +31,7 @@ Claimed mod IDs:
  021 | Creator Menu | GoldBl4d3
  022 | Heart of Hoxxes | GoldBl4d3
  023 | Take Me Home | ArcticEcho
- 024 | Custom Waves Lite | ArcticEcho
+ 024 | Custom Waves | ArcticEcho
  025 | Better Spectator | ArcticEcho
  026 | Generous Management | ArcticEcho
  027 | Spicy Balls | ArcticEcho
