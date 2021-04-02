@@ -51,7 +51,7 @@ Claimed mod IDs:
  041 | Fabulous Molly | ArcticEcho
  042 | ReloadBar | Samamstar
  043 | Patcifist Mode | Our Lord And Savior Gabe Newell
- 044 | Breeder Leeches | ArcticEcho
+ 044 | Mother Of All Blimps | ArcticEcho
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
