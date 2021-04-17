@@ -54,6 +54,7 @@ Claimed mod IDs:
  044 | Mother Of All Blimps | ArcticEcho
  045 | Teleport Players | Our Lord And Savior Gabe Newell
  046 | Motion Radar | GoldBl4d3
+ 047 | Minimap | GoldBl4d3
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
