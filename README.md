@@ -58,6 +58,7 @@ Claimed mod IDs:
  049 | Prop Pack | Pacagma and Samamstar
  050 | Custom action bindings | Samamstar
  051 | Maxwell's Demon | Darth Pointer
+ 052 | Berzerker Plus | Darth Pointer
 
  
  If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
