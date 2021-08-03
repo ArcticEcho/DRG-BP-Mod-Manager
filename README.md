@@ -59,6 +59,7 @@ Claimed mod IDs:
  050 | Custom action bindings | Samamstar
  051 | Maxwell's Demon | Darth Pointer
  052 | Berzerker Plus | Darth Pointer
+ 055 | Random Mission Selection | Darth Pointer
  066 | Better Time Control | Buckminsterfullerene
  067 | IYDRASYACH | Buckminsterfullerene
  068 | Force Takeoff | Buckminsterfullerene
