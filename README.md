@@ -1,6 +1,6 @@
 # BP Mod Manager
 
-The BP mod manager provides a central UI for interacting/configuring BP mods, you can open up the menu with the default keybinding `N`.
+The [BP mod manager](https://drg.mod.io/bpmm) provides a central UI for interacting/configuring BP mods, you can open up the menu with the default keybinding `N`.
 
 # Quick Start Guide For Mod Devs
 
