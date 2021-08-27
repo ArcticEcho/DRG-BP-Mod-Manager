@@ -1,12 +1,39 @@
 # BP Mod Manager
 
-The mod manager provides a platform for mod developers to get their BluePrint mods loaded into the game, and lets users interact with them via an in-game GUI. The manager requires mod files to be placed in the `Content/_ModBPs` folder in your UE project, following a set naming style: `ModXXX`, where `XXX` is the mod ID (a number starting from 001 and currently ranging to 100, including the prefixed 0s).
+The BP mod manager provides a central UI for interacting/configuring BP mods, you can open up the menu with the default keybinding `N`.
 
-## Mod IDs
+# Quick Start Guide For Mod Devs
 
-To avoid conflicts when building a new mod, simply pick the smallest unclaimed ID.
+If you'd like to integrate your BP mod into the manager, simply follow the steps below depending on the loading system you plan on using.
 
-Claimed mod IDs:
+## Native Loading System
+
+Assuming you've followed all the steps to get your BP mod ready for native loading:
+
+ - 1: Download the IManagedMod BP interface and add it to your project.
+
+ - 2: Add the interface to your mod's main BP:
+
+![image](https://user-images.githubusercontent.com/4972533/131170252-5dcda850-673a-4ccd-a3a2-468b706dbb29.png)
+
+ - 3: Expand the "Interfaces" tab, open the `GetConfig` function, and implement it (fill out the mod name, author, etc. fields and make sure to pass your mod config UI).
+
+![image](https://user-images.githubusercontent.com/4972533/131170780-760220ae-0bd0-4acf-8e6f-bc26f87822dc.png)
+
+ - 4: **Optional** If you plan on supporting on-the-fly mod enable/disable toggling, make sure the "Can Be Toggled Off" option is checked, and implement the Handle Enable Event/Handle Disable Event (right click on the event in the interfaces tab, and select "Implement Function").
+ 
+ ![image](https://user-images.githubusercontent.com/4972533/131171139-5cd2d789-1445-4492-a926-1b6ca4b6e13a.png)
+
+
+
+## Alternate Loading System
+
+The manager provides an alternate loading system, where supported mods will be loaded in faster than the native BP spawning system. (Mods are spawned when the player controller is fully initialised on level load, i.e., almost immediately after entering a level). Your mod's entry point BP must be placed in the `Content/_ModBPs` folder in your UE project (if the folders don't exist, create them). The file must follow a set naming format: `ModXXX`, where `XXX` is your mod's ID (a number between 001 and 150, including the prefixed 0s).
+
+### Claimed ALS Mod IDs
+ 
+ To avoid conflicts, we keep track of claimed ALS IDs. If you're making a new mod that targets this system, please submit an [ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) (or hit me up on discord).
+
  Mod ID | Mod Name | Author 
  -------|----------|-------
  001 | Advanced Darkness | ArcticEcho
@@ -67,25 +94,16 @@ Claimed mod IDs:
  070 | Deep Coaster Tycoon | Our Lord And Savior Gabe Newell
  071 | Upgraded Molly | Our Lord And Savior Gabe Newell
  072 | Swarm Size Control | NaturalBornCamper
- 
- If you'd like to reservse/claim an ID please submit a [new ID claim](https://github.com/ArcticEcho/DRG-Mod-Loader/issues/new?assignees=ArcticEcho&labels=ID+Claim&template=id-claim.md&title=ID+Claim) or hit me up on discord.
 
-
-# How To use
-
-## Installation
-
-Simply download mod manager pak file and move it into `C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks`.
-
-## Creating a new mod
+### Creating a new ALS mod
 
  - 1: In your Unreal Engine project, create a folder named `_ModBPs` in your content folder. Your content browser should look like this:
  
  ![](https://i.imgur.com/PaG745W.png)
 
- - 2: Download the ModBase BluePrint and place it in `_ModBPs`.
+ - 2: Download the `ModBaseV2` BP and add it to your project.
  
- - 3: Create a new BP in `_ModBPs` with `ModBase` as the parent class, and name the file `ModXXX` (replacing `XXX` with your mod ID):
+ - 3: Create a new BP in `_ModBPs` with `ModBaseV2` as the parent class, and name the file `ModXXX` (replacing `XXX` with your mod ID):
  
  ![](https://i.imgur.com/5RtGtcM.png)
  
@@ -93,9 +111,7 @@ Simply download mod manager pak file and move it into `C:\Program Files (x86)\St
  
  ![](https://i.imgur.com/woJnLN8.png)
  
- - 5: From the event BeginPlay, bind to the `OnInitialise` event and get your mod ready for use (initialise UI, load save data, etc.). If you're embedding your UI, set the `ModUI` variable after you've created your widget. Do **not** start your mod from this event.
- 
- ![](https://i.imgur.com/5IWdC0T.png)
+ - 5: From the `BeginPlay` event get your mod ready for use: initialise UI, load save data, etc. Make sure to set the `ModUI` variable after you've created your widget. Do **not** start your mod from this event, use the `OnStart` event instead.
  
  - 6: Bind to the `OnStart` event and create the necessary logic to enable/start your mod.
  
@@ -105,6 +121,5 @@ Simply download mod manager pak file and move it into `C:\Program Files (x86)\St
  
  ![](https://i.imgur.com/cBsGznq.png)
  
-If you're embedding your UI, you may find the `OnUIOpened` and `OnUIClosed` events helpful for carrying out additional tasks (for example, initialising slider values when the UI opens, or saving data when the UI closes).
 
 If you still need help feel free to submit an issue.
