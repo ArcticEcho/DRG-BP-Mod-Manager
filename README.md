@@ -20,7 +20,7 @@ Assuming you've followed all the steps to get your BP mod ready for native loadi
 
 ![image](https://user-images.githubusercontent.com/4972533/131170780-760220ae-0bd0-4acf-8e6f-bc26f87822dc.png)
 
- - 4: **Optional** If you plan on supporting on-the-fly mod enable/disable toggling, make sure the "Can Be Toggled Off" option is checked, and implement the Handle Enable Event/Handle Disable Event (right click on the event in the interfaces tab, and select "Implement Function").
+ - 4 (**optional**): If you plan on supporting on-the-fly mod enable/disable toggling, make sure the "Can Be Toggled Off" option is checked, and implement the Handle Enable Event/Handle Disable Event (right click on the event in the interfaces tab, and select "Implement Function").
  
  ![image](https://user-images.githubusercontent.com/4972533/131171139-5cd2d789-1445-4492-a926-1b6ca4b6e13a.png)
 
