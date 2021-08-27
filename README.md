@@ -10,7 +10,7 @@ If you'd like to integrate your BP mod into the manager, simply follow the steps
 
 Assuming you've followed all the steps to get your BP mod ready for native loading:
 
- - 1: Download the IManagedMod BP interface and add it to your project.
+ - 1: [Download](https://github.com/ArcticEcho/DRG-BP-Mod-Manager/raw/master/IManagedMod.uasset) the IManagedMod BP interface and add it to your project.
 
  - 2: Add the interface to your mod's main BP:
 
@@ -101,7 +101,7 @@ The manager provides an alternate loading system, where supported mods will be l
  
  ![](https://i.imgur.com/PaG745W.png)
 
- - 2: Download the `ModBaseV2` BP and add it to your project.
+ - 2: [Download](https://github.com/ArcticEcho/DRG-BP-Mod-Manager/raw/master/ModBaseV2.uasset) the `ModBaseV2` BP and add it to your project.
  
  - 3: Create a new BP in `_ModBPs` with `ModBaseV2` as the parent class, and name the file `ModXXX` (replacing `XXX` with your mod ID):
  
