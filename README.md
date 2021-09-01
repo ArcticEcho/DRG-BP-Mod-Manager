@@ -28,7 +28,7 @@ Assuming you've followed all the steps to get your BP mod ready for native loadi
 
 ## Alternate Loading System
 
-The manager provides an alternate loading system, where supported mods will be loaded in faster than the native BP spawning system. (Mods are spawned when the player controller is fully initialised on level load, i.e., almost immediately after entering a level). Your mod's entry point BP must be placed in the `Content/_ModBPs` folder in your UE project (if the folders don't exist, create them). The file must follow a set naming format: `ModXXX`, where `XXX` is your mod's ID (a number between 001 and 150, including the prefixed 0s).
+The manager provides an alternate loading system, where supported mods will be loaded in faster than the native BP spawning system. (Mods are spawned when the player controller is fully initialised on level load, i.e., almost immediately after entering a level). Your BP mod must be placed in the `Content/_ModBPs` folder in your UE project. The file must follow a set naming format: `ModXXX`, where `XXX` is your mod's ID (a number between 001 and 150, including the prefixed 0s).
 
 ### Claimed ALS Mod IDs
  
