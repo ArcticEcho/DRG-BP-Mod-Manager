@@ -95,6 +95,7 @@ The manager provides an alternate loading system, where supported mods will be l
  071 | Upgraded Molly | Our Lord And Savior Gabe Newell
  072 | Swarm Size Control | NaturalBornCamper
  073 | HazardPersistanceEnjoyer | Darth Pointer
+ 074 | Display Events | HandDrawnNerd
 
 ### Creating a new ALS mod
 
