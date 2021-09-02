@@ -13,7 +13,7 @@ Assuming you've followed all the steps to get your BP mod ready for native loadi
  - 1: In your Unreal Engine project, create a folder named `_ModBPs` in your content folder. Your content browser should look like this:
  
  ![](https://i.imgur.com/PaG745W.png)
- - 2: [Download](https://github.com/ArcticEcho/DRG-BP-Mod-Manager/raw/master/IManagedMod.uasset) the IManagedMod BP interface and add it to the `_ModBPs` folder.
+ - 2: [Download](https://github.com/ArcticEcho/DRG-BP-Mod-Manager/raw/master/IManagedMod.uasset) the IManagedMod BP interface and add it to the `_ModBPs` folder. (The interface needs to be placed in this specific location, otherwise the BPMM won't be able to find your mod. Just to clarify, your mod files do _not_ need to be placed in here, only the interface.)
 
  - 3: Add the interface to your mod's main BP:
 
