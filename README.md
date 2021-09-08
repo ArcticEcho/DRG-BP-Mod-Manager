@@ -99,6 +99,7 @@ The manager provides an alternate loading system, where supported mods will be l
  072 | Swarm Size Control | NaturalBornCamper
  073 | HazardPersistanceEnjoyer | Darth Pointer
  074 | Display Events | HandDrawnNerd
+ 075 | Text Commands Wheel | Darth Pointer
  099 | Message Of The Day | Glosb
 
 ### Creating a new ALS mod
