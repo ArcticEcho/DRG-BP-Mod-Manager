@@ -6,6 +6,8 @@ The [BP mod manager](https://drg.mod.io/bpmm) provides a central UI for interact
 
 If you'd like to integrate your BP mod into the manager, simply follow the steps below depending on the loading system you plan on using.
 
+_Note on integrating your UI into the manager: do not use a scrollbox as the parent container of your widget. The manager already nests your widget into a scrollbox for you._
+
 ## Native Loading System
 
 Assuming you've followed all the steps to get your BP mod ready for native loading:
@@ -26,8 +28,6 @@ Assuming you've followed all the steps to get your BP mod ready for native loadi
  - 5 (**optional**): If you plan on supporting on-the-fly mod enable/disable toggling, make sure the "Can Be Toggled Off" option is checked, and implement the Handle Enable Event/Handle Disable Event (right click on the event in the interfaces tab, and select "Implement Function").
  
  ![image](https://user-images.githubusercontent.com/4972533/131171139-5cd2d789-1445-4492-a926-1b6ca4b6e13a.png)
-
-
 
 ## Alternate Loading System
 
