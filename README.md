@@ -102,6 +102,8 @@ The manager provides an alternate loading system, where supported mods will be l
  075 | Text Commands Wheel | Darth Pointer
  098 | Bosco Army | Glosb
  099 | Message Of The Day | Glosb
+ 100 | Higher Difficulty Tweaks | NaturalBornCamper
+ 101 | Verified QoL Tweaks | NaturalBornCamper
 
 ### Creating a new ALS mod
 
