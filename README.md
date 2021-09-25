@@ -100,6 +100,7 @@ The manager provides an alternate loading system, where supported mods will be l
  073 | HazardPersistanceEnjoyer | Darth Pointer
  074 | Display Events | HandDrawnNerd
  075 | Text Commands Wheel | Darth Pointer
+ 076 | Bonus hazard pay | Squid742
  098 | Bosco Army | Glosb
  099 | Message Of The Day | Glosb
  100 | Higher Difficulty Tweaks | NaturalBornCamper
