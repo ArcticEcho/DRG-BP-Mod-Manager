@@ -105,6 +105,7 @@ The manager provides an alternate loading system, where supported mods will be l
  099 | Message Of The Day | Glosb
  100 | Higher Difficulty Tweaks | NaturalBornCamper
  101 | Verified QoL Tweaks | NaturalBornCamper
+ 102 | Retrograde Mod Spawner | Darth Pointer
 
 ### Creating a new ALS mod
 
